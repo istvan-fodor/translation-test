@@ -1,0 +1,9 @@
+openai-whisper
+jupyterlab
+ipywidgets
+transformers
+sentencepiece
+widgetsnbextension
+tqdm
+moviepy
+pyyaml
