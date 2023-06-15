@@ -1,7 +1,7 @@
 Utilities for transcription and translation
 =========================================
 
-This Python script a solution to process video files, transcribe the audio into multiple languages, and produce WebVTT (Web Video Text Tracks) files for each language transcription.
+This Python script a solution to process video files, transcribe the audio into multiple languages, and produce WebVTT (Web Video Text Tracks) files for each language transcription. A core assumption at the moment is that the input video is in the English language.
 
 The script starts by transcribing the audio of the input video file using OpenAI's Whisper ASR system. Then it translates the transcription into a list of languages provided by the user, using the specified translation model. Finally, it generates WebVTT files for the transcriptions in all languages.
 
